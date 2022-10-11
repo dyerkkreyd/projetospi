@@ -13,6 +13,11 @@ public class EventosController {
 	@Autowired
 	private EventoRepository er;
 	
+	@RequestMapping("/eventos/home")
+	public String home() {
+		return "home";
+	}
+	
 	@RequestMapping("/eventos/form")
 	public String form() {
 		return "formEvento";
