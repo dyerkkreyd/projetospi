@@ -1,4 +1,4 @@
-package ifrn.eventos.models;
+package ifrn.eventos.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
